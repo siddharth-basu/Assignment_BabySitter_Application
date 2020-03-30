@@ -11,23 +11,23 @@ I want to calculate my nightly charge
 Requirements
 --------
 The babysitter:
--starts no earlier than 5:00PM
--leaves no later than 4:00AM
--only babysits for one family per night
--gets paid for full hours (no fractional hours)
--should be prevented from mistakes when entering times (e.g. end time before start time, or outside of allowable work hours)
+starts no earlier than 5:00PM
+leaves no later than 4:00AM
+only babysits for one family per night
+gets paid for full hours (no fractional hours)
+should be prevented from mistakes when entering times (e.g. end time before start time, or outside of allowable work hours)
 
 The job:
 ------
--Pays different rates for each family (based on bedtimes, kids and pets, etc...)
--Family A pays $15 per hour before 11pm, and $20 per hour the rest of the night
--Family B pays $12 per hour before 10pm, $8 between 10 and 12, and $16 the rest of the night
--Family C pays $21 per hour before 9pm, then $15 the rest of the night
--The time ranges are the same as the babysitter (5pm through 4am)
+Pays different rates for each family (based on bedtimes, kids and pets, etc...)
+Family A pays $15 per hour before 11pm, and $20 per hour the rest of the night
+Family B pays $12 per hour before 10pm, $8 between 10 and 12, and $16 the rest of the night
+Family C pays $21 per hour before 9pm, then $15 the rest of the night
+The time ranges are the same as the babysitter (5pm through 4am)
 
 Deliverable:
 ----
--Calculate total pay, based on babysitter start and end time, and a family.
+Calculate total pay, based on babysitter start and end time, and a family.
 
 i) Application Details 
 -------
@@ -35,18 +35,18 @@ The application is Java maven build. I used the Jetbrains IntelliJ IDE to develo
 
 ii) Dependencies
 ------
--Java 13 
--Maven Build
--Junit 4.12
--Hamcrest-core 1.3
+Java 13 
+Maven Build
+Junit 4.12
+Hamcrest-core 1.3
 
 iii) Setup & Configuration 
 -------
--IntelliJ IDE 
--Java 13 JDK Installed 
--Refresh Maven Build to install dependent web jars 
--Build Project
--Run MainApp.main()
+IntelliJ IDE 
+Java 13 JDK Installed 
+Refresh Maven Build to install dependent web jars 
+Build Project
+Run MainApp.main()
 
 iv) Algorithmic Approach/Solution
 -----

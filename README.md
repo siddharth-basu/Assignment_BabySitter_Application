@@ -24,6 +24,7 @@ The job:
 
 Deliverable:
 -Calculate total pay, based on babysitter start and end time, and a family.
+----------------------------------------------------------------------------------------------------------------------
 
 i) Application Details 
 The application is Java maven build. I used the Jetbrains IntelliJ IDE to develop this project. The application is broken up in two sections in the src folder: main and test folders. The main contains the MainApp.java which contains the main class to run the application. I isolated the functional classes in a package called HelperClasses. There are two files: FamilyTypes.java and SitterScheduleTime.java. The test folder contains two test classes 
